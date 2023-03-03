@@ -34,10 +34,7 @@ def hello_world():
     allTodo = Todo.query.all()
     return render_template('index.html', allTodo=allTodo)
     
-    # fname = 'Anupam'
-    # lname = 'Kumawat'
-    # cur = mysql.connection.cursor()
-    # cur.execute("INSERT INTO ")
+
 
 
 @app.route("/show")
