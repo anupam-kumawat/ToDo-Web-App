@@ -18,8 +18,8 @@ class Todo(db.Model):
         return f"{self.sno} - {self.title}"
 
 # app.config["MYSQL_HOST"] = 'localhost'
-# app.config["MYSQL_USER"] = 'Anupam'
-# app.config["MYSQL_PASSWORD"] = '8955@Mysql'
+# app.config["MYSQL_USER"] = 'user'
+# app.config["MYSQL_PASSWORD"] = 'password'
 # app.config["MYSQL_DB"] = 'todo'
 # mysql = MySQL(app)
 
